@@ -1,0 +1,23 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-traderschmoes-dev-132629-authRole",
+            "UnauthRoleArn": "arn:aws:iam::353140709623:role/amplify-traderschmoes-dev-132629-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::353140709623:role/amplify-traderschmoes-dev-132629-authRole",
+            "Region": "ca-central-1",
+            "DeploymentBucketName": "amplify-traderschmoes-dev-132629-deployment",
+            "UnauthRoleName": "amplify-traderschmoes-dev-132629-unauthRole",
+            "StackName": "amplify-traderschmoes-dev-132629",
+            "StackId": "arn:aws:cloudformation:ca-central-1:353140709623:stack/amplify-traderschmoes-dev-132629/5a711880-6679-11ec-934d-06c9d9f35b68",
+            "AmplifyAppId": "dr841sqnn7zio"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dr841sqnn7zio",
+                    "type": "cicd"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+{
+  "trigger": true,
+  "modules": [
+    "add-to-group"
+  ],
+  "parentResource": "traderschmoesb07007e2",
+  "functionName": "traderschmoesb07007e2PostConfirmation",
+  "resourceName": "traderschmoesb07007e2PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/home/kevon/.nvm/versions/node/v16.13.1/lib/node_modules/@aws-amplify/cli/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "traderschmoesb07007e2PostConfirmation",
+  "skipEdit": true,
+  "GROUP": "BasicUsers",
+  "enableCors": false
+}

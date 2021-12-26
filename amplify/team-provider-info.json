@@ -1,23 +1,41 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-traderschmoes-dev-132629-authRole",
-            "UnauthRoleArn": "arn:aws:iam::353140709623:role/amplify-traderschmoes-dev-132629-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::353140709623:role/amplify-traderschmoes-dev-132629-authRole",
-            "Region": "ca-central-1",
-            "DeploymentBucketName": "amplify-traderschmoes-dev-132629-deployment",
-            "UnauthRoleName": "amplify-traderschmoes-dev-132629-unauthRole",
-            "StackName": "amplify-traderschmoes-dev-132629",
-            "StackId": "arn:aws:cloudformation:ca-central-1:353140709623:stack/amplify-traderschmoes-dev-132629/5a711880-6679-11ec-934d-06c9d9f35b68",
-            "AmplifyAppId": "dr841sqnn7zio"
-        },
-        "categories": {
-            "hosting": {
-                "amplifyhosting": {
-                    "appId": "dr841sqnn7zio",
-                    "type": "cicd"
-                }
-            }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-traderschmoes-dev-132629-authRole",
+      "UnauthRoleArn": "arn:aws:iam::353140709623:role/amplify-traderschmoes-dev-132629-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::353140709623:role/amplify-traderschmoes-dev-132629-authRole",
+      "Region": "ca-central-1",
+      "DeploymentBucketName": "amplify-traderschmoes-dev-132629-deployment",
+      "UnauthRoleName": "amplify-traderschmoes-dev-132629-unauthRole",
+      "StackName": "amplify-traderschmoes-dev-132629",
+      "StackId": "arn:aws:cloudformation:ca-central-1:353140709623:stack/amplify-traderschmoes-dev-132629/5a711880-6679-11ec-934d-06c9d9f35b68",
+      "AmplifyAppId": "dr841sqnn7zio",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-traderschmoes-dev-132629-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "dr841sqnn7zio",
+          "type": "cicd"
         }
+      },
+      "auth": {
+        "traderschmoesb07007e2": {}
+      },
+      "function": {
+        "traderschmoesb07007e2CustomMessage": {
+          "REDIRECTURL": "google.com",
+          "EMAILSUBJECT": "Welcome to traderschmoes",
+          "EMAILMESSAGE": "Welcome to traderschmoes, verify below",
+          "deploymentBucketName": "amplify-traderschmoes-dev-132629-deployment",
+          "s3Key": "amplify-builds/traderschmoesb07007e2CustomMessage-43375047557648583675-build.zip"
+        },
+        "traderschmoesb07007e2PostConfirmation": {
+          "GROUP": "BasicUsers",
+          "deploymentBucketName": "amplify-traderschmoes-dev-132629-deployment",
+          "s3Key": "amplify-builds/traderschmoesb07007e2PostConfirmation-56344d39724e644e324d-build.zip"
+        }
+      }
     }
+  }
 }

@@ -1,0 +1,26 @@
+{
+  "trigger": true,
+  "modules": [
+    "verification-link"
+  ],
+  "parentResource": "traderschmoesb07007e2",
+  "functionName": "traderschmoesb07007e2CustomMessage",
+  "resourceName": "traderschmoesb07007e2CustomMessage",
+  "parentStack": "auth",
+  "triggerEnvs": [
+    {
+      "key": "RESOURCENAME",
+      "value": "resourceName"
+    }
+  ],
+  "triggerDir": "/home/kevon/.nvm/versions/node/v16.13.1/lib/node_modules/@aws-amplify/cli/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/CustomMessage",
+  "triggerTemplate": "CustomMessage.json.ejs",
+  "triggerEventPath": "CustomMessage.event.json",
+  "roleName": "traderschmoesb07007e2CustomMessage",
+  "skipEdit": true,
+  "REDIRECTURL": "google.com",
+  "EMAILSUBJECT": "Welcome to traderschmoes",
+  "EMAILMESSAGE": "Welcome to traderschmoes, verify below",
+  "RESOURCENAME": "resourceName",
+  "enableCors": false
+}

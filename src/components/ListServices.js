@@ -1,10 +1,10 @@
-import React from "react";
+//import React from "react";
 //import reactDom from "react-dom";
 
-//i/mport { Auth } from "aws-amplify";
-//import awsconfig from '../aws-exports';
-//import { withAuthenticator } from 'aws-amplify-react';
-////Auth.configure(awsconfig);
+import { Auth } from "aws-amplify";
+import awsconfig from '../aws-exports';
+import {withAuthenticator} from '@aws-amplify/ui-react';
+Auth.configure(awsconfig);
 
 const ListServices = () => {
 
@@ -14,5 +14,4 @@ const ListServices = () => {
         </div>
     )
 }
-
-export default ListServices;
+export default withAuthenticator(ListServices);

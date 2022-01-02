@@ -1,12 +1,13 @@
-import React from 'react';
+//import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import List from "./components/ListServices";
+import ListServices from "./components/ListServices";
 
-import { Auth } from 'aws-amplify';
-import awsconfig from './aws-exports';
-import {withAuthenticator} from 'aws-amplify';
-Auth.configure(awsconfig);
+
+//import Amplify, { Auth } from 'aws-amplify';
+//import awsconfig from './aws-exports';
+//import {withAuthenticator} from '@aws-amplify/ui-react';
+//Amplify.configure(awsconfig);
 
 function App() {
   return (
@@ -28,12 +29,14 @@ function App() {
       </header>
 
       <div>
-        <List />
+        <ListServices />
       </div>
+
+
 
     </div>
     
   );
 }
 
-export default withAuthenticator(App);
+export default App;

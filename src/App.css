@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.ListSercices{
+}
+
+.ListServices [data-amplify-authenticator][data-variation=modal] {
+  /* display: grid; */
+  width: 50%; 
+}
+
+.data-amplify-container{
+  width: 100px ;
+}
+
+
